@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.frame img{
+    width: 100%;
+    max-width:350px;
+    height:300px;
+    margin:70px;
+    box-shadow: 0 0 3px 3px black;
+    border-radius: 9px;
+    transition:transform 450ms;
+}
+.frame{
+    display: flex;
+}
+h1,p{
+    text-align: center;
+}
+img:hover{
+    transform:scale(1.08);
+}
